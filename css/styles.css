@@ -5,6 +5,11 @@
   --color-main-background: #ffffff;
   --color-secondary-background: #f5f4fa;
   --color-link-hover: #2196f3;
+  --color-logo-footer: #ffffff;
+  --color-logo-header: #000000;
+  --color-real-address: #ffffff;
+  --color-link-address: rgba(255, 255, 255, 0.6);
+  --color-title-hero: #ffffff;
 }
 /* колір героя і підвалу #2F303A; */
 /* сірий  параграф  #757575; */
@@ -42,6 +47,8 @@ body {
   font-family: Roboto, sans-serif;
   background: var(--color-main-background);
   color: var(--color-title-text);
+  letter-spacing: 0.03e;
+  font-size: 14px;
 }
 /* Логотип */
 .logo {
@@ -49,16 +56,14 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--color-link-hover);
 }
 .logo-black {
-  color: #000000;
+  color: var(--color-logo-header);
 }
 /* Навігація */
 .heder-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-title-text);
@@ -72,7 +77,6 @@ body {
 
 .contact-nav {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-text);
@@ -92,8 +96,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-main-background);
-
+  color: var(--color-logo-footer);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hero-button {
@@ -107,12 +110,10 @@ body {
 .benefits-name {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
 }
 .benefits-text {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--color-text);
 }
@@ -151,18 +152,14 @@ body {
 .address-real {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-real-address);
 }
 .footer-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-link-address);
 }
 .logo-footer {
   font-family: Raleway;
@@ -170,11 +167,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--color-link-hover);
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--color-logo-footer);
 }
 
 /* ----------------ПОРТФОЛІО-------------------- */
@@ -184,7 +180,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -203,6 +198,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--color-text);
 }
